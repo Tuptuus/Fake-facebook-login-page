@@ -1,0 +1,41 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f0f2f5;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#ImgFb
+{
+    height: 200px;
+    width: 300px;
+}
+
+#main
+{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    font-family: sans-serif;
+    margin-left: 430px;
+    margin-top: 180px;
+}
+
+#image
+{
+    height: 106px;
+    width: 301px;
+}
+
+#text
+{
+    margin-left: 30px;
+    margin-top: -20px;
+    width: 500px;
+}
