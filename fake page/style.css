@@ -41,13 +41,17 @@ body
 {
     height: 106px;
     width: 301px;
+    margin-left: 5px;
+    margin-top: -3px;
+
 }
 
 #text
 {
-    margin-left: 30px;
-    margin-top: -20px;
+    margin-left: 31px;
+    margin-top: -16px;
     width: 500px;
+    color: #1c1e21;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -67,6 +71,7 @@ body
 
 .Form
 {
+    color: #90949d;
     height: 50px;
     width: 364px;
     border-radius: 6px;
@@ -75,6 +80,18 @@ body
     text-align: justify;
     padding-left: 15px;
     border: 1px solid #dddfe2;
+}
+
+input.Form::placeholder
+{
+    color: #90949d;
+}
+
+input.Form:focus
+{
+    outline: none;
+    border: 1px solid #1977f3;
+    box-shadow: 0px 0px 1px #1977f3;
 }
 
 #LogButt
@@ -254,27 +271,59 @@ body
     margin-left: 12px;
 }
 
-#FooterLi
+.FooterLi
 {
     width: 980px;
-    /* display: flex; */
-    /* background-color: red; */
 }
 
 #FooterList2
 {
     /* background-color: red; */
     width: 980px;
-    height: 100px;
     align-items: center;
     display: flex;
     list-style: none;
+    margin-top: 10px;
+    margin-left: -3px;
+    /* background-color: red; */
 }
 
 .List2
 {
-    padding-left: 12px;
+    padding-left: 20px;
     font-size: 12px;
-    width: 500px;
+    /* width: 500px; */
     color: #8a8d91;
+}
+
+#FooterList3
+{
+    /* background-color: red; */
+    width: 980px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    /* background-color: red; */
+    margin-left: -3px;
+}
+
+#FooterList4
+{
+    /* background-color: red; */
+    width: 980px;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    /* background-color: red; */
+    margin-left: -3px;
+}
+
+#copyright
+{
+    font-size: 11px;
+    color: #737373;
+    margin-top: 25px;
+    margin-left: 15px;
 }
