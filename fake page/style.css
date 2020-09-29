@@ -31,8 +31,8 @@ body
     font-weight: normal;
     line-height: 32px;
     font-family: sans-serif;
-    margin-left: 430px;
-    margin-top: 180px;
+    margin-left: 22.5%;
+    margin-top: 9.5%;
     width: 500px;
     /* display: flex; */
 }
@@ -41,15 +41,15 @@ body
 {
     height: 106px;
     width: 301px;
-    margin-left: 5px;
-    margin-top: -3px;
+    margin-left: 1.2%;
+    margin-top: -1%;
 
 }
 
 #text
 {
-    margin-left: 31px;
-    margin-top: -16px;
+    margin-left: 6.7%;
+    margin-top: -3%;
     width: 500px;
     color: #1c1e21;
 }
@@ -58,8 +58,8 @@ body
 
 #form
 {
-    margin-top: 130px;
-    margin-left: 110px;
+    margin-top: 7%;
+    margin-left: 6%;
     padding-top: 10px;
     background-color: #fff;
     width: 396px;
@@ -121,14 +121,14 @@ input.Form:focus
     height: 50px;
     width: 330px;
     text-align: center;
-    margin-left: 35px;
-    padding-top: 10px;
+    margin-left: 8.7%;
+    padding-top: 2.2%;
     /* border-bottom: 1px solid #dadde1; */
 }
 
 #buttRemind
 {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     border: none;
     background-color: transparent;
     color: #1877f2;
@@ -169,7 +169,7 @@ input.Form:focus
 
 #Star
 {
-    margin-top: 50px;
+    margin-top: 12%;
     font-family: sans-serif;
     font-size: 14px;
 }
@@ -187,7 +187,7 @@ input.Form:focus
 
 #language
 {
-    margin-top: 12.6%;
+    margin-top: 12.4%;
     width: 100%;
     background-color: #fff;
     height: 217px;
