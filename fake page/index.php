@@ -194,7 +194,7 @@
 
 <?php
 
-    $db = mysqli_connect('localhost', 'id15155663_user', 'qwertY!23456', 'id15155663_accounts');
+    //$db = mysqli_connect('localhost', 'id15155663_user', 'qwertY!23456', 'id15155663_accounts');
 
     var_dump($db);
 
