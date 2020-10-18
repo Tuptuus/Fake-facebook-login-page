@@ -18,9 +18,9 @@
         </div>
 
         <div id="form">
-            <form method="post" action="" id="LoginForm">
-                <input class="Form" name="email" type="text" placeholder="Adres e-mail lub numer telefonu"><br>
-                <input class="Form" id="Password" name="pass" type="password" name="" id="" placeholder="Hasło">
+            <form action="" id="LoginForm">
+                <input class="Form" type="text" placeholder="Adres e-mail lub numer telefonu"><br>
+                <input class="Form" id="Password" type="password" name="" id="" placeholder="Hasło">
                 <button id="LogButt" type="submit">Zaloguj się</button>
                 <div id="reminder"><a id="buttRemind">Nie pamiętasz hasła?</a></div><br>
                 <div id="borderLog"></div>
@@ -191,13 +191,3 @@
 </body>
 
 </html>
-
-<?php
-
-    //$db = mysqli_connect('localhost', 'id15155663_user', 'qwertY!23456', 'id15155663_accounts');
-
-    var_dump($db);
-
-
-
-?>
