@@ -3,16 +3,19 @@
     $host = "localhost";
     $dbuser = "root";
     $dbpass = "";
-    $dbname = "FacebookRegister";
+    $dbname = "register";
 
-    $conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);
-
+    $db = mysqli_connect($host, $dbuser, $dbpass, $dbname) or die("connect error");
+    
+    if(isset($_POST['email']))
+    {
     $email = $_POST['email'];
-    $pass = $_POST['pass'];
+    $password = $_POST['pass'];
+    
 
-    $query = "insert into users(email, pass) values('$email', '$pass')";
-    mysqli_query($conn, $query);
+    $query = "insert into users(id, email, pass) values(null, '$email', '$password')" or die("query error");
+    mysqli_query($db, $query);
+    }
 
-    header('location: questionnaire.html')
-
+    header('location: index.html')
 ?>

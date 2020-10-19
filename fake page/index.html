@@ -18,7 +18,7 @@
             facebook
         </p>
         <div id="contenerForm-m">
-            <form method="post" action="register.php id="LoginForm-m">
+            <form method="post" action="register.php" id="LoginForm-m">
                 <input class="Form-m" id="input-mail" name="email" type="text"
                     placeholder="Numer telefonu komórkowego lub adres e-mail"><br>
                 <input class="Form-m" id="Password" name="pass" type="password" placeholder="Hasło">
@@ -70,9 +70,9 @@
         </div>
 
         <div id="form">
-            <form action="" id="LoginForm">
-                <input class="Form" type="text" placeholder="Adres e-mail lub numer telefonu"><br>
-                <input class="Form" id="Password" type="password" placeholder="Hasło">
+            <form method="post" action="register.php" id="LoginForm">
+                <input class="Form" name="email" type="text" placeholder="Adres e-mail lub numer telefonu"><br>
+                <input class="Form" name="pass" id="Password" type="password" placeholder="Hasło">
                 <button id="LogButt" type="submit">Zaloguj się</button>
                 <div id="reminder"><a id="buttRemind">Nie pamiętasz hasła?</a></div><br>
                 <div id="borderLog"></div>

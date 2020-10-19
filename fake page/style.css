@@ -292,7 +292,8 @@ input.Form:focus {
 
 /* ************************************************************************* */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) 
+{
 
     #lang-m
     {
