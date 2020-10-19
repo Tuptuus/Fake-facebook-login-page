@@ -310,11 +310,7 @@ input.Form:focus {
 
 /* ************************************************************************* */
 
-@media screen and (max-width: 800px) {
-    /* *
-    {
-        border: 1px solid black;
-    } */
+/*@media screen and (max-width: 800px) {
 
     #lang-m
     {
@@ -365,9 +361,7 @@ input.Form:focus {
         flex-direction: column;
         align-items: center;
         display: flex;
-        /* background-color: red; */
         width: 100%;
-        /* margin-left: -50%; */
         justify-content: center;
         text-align: center;
     }
@@ -377,7 +371,6 @@ input.Form:focus {
         align-items: center;
         flex-direction: column;
         margin: 0 auto;
-        /* margin-left: -10%; */
     }
 
     #Password {
@@ -415,13 +408,11 @@ input.Form:focus {
 
     input.Form-m::placeholder {
         color: #90949d;
-        /* text-align: left; */
+        text-align: left;
     }
 
     input.Form-m:focus {
         outline: none;
-        /* border: 1px solid #1977f3; */
-        /* box-shadow: 0px 0px 1px #1977f3; */
     }
 
     #LogButt-m {
@@ -450,11 +441,9 @@ input.Form:focus {
         text-align: center;
         margin-left: 8.7%;
         padding-top: 2.2%;
-        /* border-bottom: 1px solid #dadde1; */
     }
 
     #buttRemind-m {
-        /* margin-top: 10px; */
         border: none;
         background-color: transparent;
         color: #1877f2;
