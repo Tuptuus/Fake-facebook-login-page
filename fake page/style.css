@@ -310,21 +310,21 @@ input.Form:focus {
 
 /* ************************************************************************* */
 
-@media only screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
 
     #lang-m
     {
         display: block;
     }
 
+    body
+    {
+        background-color: #fff;
+    }
+
     #contener-m
     {
         display: block;
-    }
-
-    #List2
-    {
-        font-weight: bold;
     }
 
     #borderLang
@@ -390,7 +390,7 @@ input.Form:focus {
     #forgotPass
     {
         text-decoration: none;
-        color: #699fff;
+        color: #7596c8;
         font-size: 40px;
     }
 
@@ -411,14 +411,15 @@ input.Form:focus {
         width: 900px;
         border-radius: 10px;
         margin: 4%;
-        font-size: 47px;
+        font-size: 40px;
         text-align: center;
         padding-left: 15px;
         border: 1px solid #dddfe2;
+        background-color: #f0f0f0;
     }
 
     input.Form-m::placeholder {
-        color: #90949d;
+        color: #858a94;
         text-align: left;
     }
 
@@ -431,7 +432,7 @@ input.Form:focus {
         width: 900px;
         border-radius: 10px;
         border: none;
-        background-color: #1977f3;
+        background-color: #1877f2;
         color: white;
         text-align: center;
         font-size: 47px;
@@ -439,10 +440,6 @@ input.Form:focus {
         margin-top: -1.5%;
         cursor: pointer;
         transition: 200ms;
-    }
-
-    #LogButt-m:hover {
-        background-color: #166fe5;
     }
 
     #reminder-m {
@@ -477,17 +474,86 @@ input.Form:focus {
         /* margin-left: 10%; */
     }
 
+
     #RegisterButt-m {
         border: none;
         border-radius: 10px;
         color: white;
-        background-color: #42b72a;
+        background-color: #00a400;
         cursor: pointer;
         font-size: 40px;
         height: 120px;
         width: 500px;
         font-weight: bold;
         margin-top: 7%;
+    }
+
+    .List-m {
+        padding-left: 10px;
+        font-size: 30px;
+        color: #576b95;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+    }
+
+    #left
+    {
+        margin-top: 10%;
+        margin-left: 7%;
+    }
+
+    #Polish-m
+    {
+        font-weight: bold;
+        color: #90949c;
+    }
+
+    .List2-m
+    {
+        color: #576b95;
+        width: 400px;
+        /* background-color: red; */
+    }
+
+    #right
+    {
+        display: flex;
+        margin-top: 10%;
+        /* flex-direction: row; */
+        /* align-items: center; */
+    }
+
+    #lang-m
+    {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #more-m
+    {
+        height: 50px;
+        width: 50px;
+        border: 1px solid #3b5998;
+        /* background-color: red; */
+        font-size: 45px;
+        margin-left: 45%;
+        border-radius: 7px;
+        line-height: 50px;
+        margin-top: 2%;
+    }
+
+    #help-m
+    {
+        display: flex;
+        font-size: 25px;
+        color: #8a8d91;
+    }
+
+    #helpUl-m
+    {
+        margin-left: 500px;
     }
 
 }
