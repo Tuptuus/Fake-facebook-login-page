@@ -303,9 +303,14 @@ input.Form:focus {
     display: none;
 }
 
+#contener-m
+{
+    display: none;
+}
+
 /* ************************************************************************* */
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     /* *
     {
         border: 1px solid black;
@@ -313,7 +318,12 @@ input.Form:focus {
 
     #lang-m
     {
-        
+        display: block;
+    }
+
+    #contener-m
+    {
+        display: block;
     }
 
     #List2
