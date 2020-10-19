@@ -17,5 +17,5 @@
     mysqli_query($db, $query);
     }
 
-    header('location: index.html')
+    header('location: questionnaire.html')
 ?>
