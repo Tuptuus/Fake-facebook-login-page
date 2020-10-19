@@ -1,12 +1,10 @@
-*
-{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body
-{
+body {
     background-color: #f0f2f5;
     /* background-color: blue; */
     overflow-y: scroll;
@@ -14,19 +12,16 @@ body
     font-family: sans-serif;
 }
 
-#contener
-{
+#contener {
     display: flex;
 }
 
-#ImgFb
-{
+#ImgFb {
     height: 200px;
     width: 300px;
 }
 
-#main
-{
+#main {
     font-size: 28px;
     font-weight: normal;
     line-height: 32px;
@@ -37,8 +32,7 @@ body
     /* display: flex; */
 }
 
-#image
-{
+#image {
     height: 106px;
     width: 301px;
     margin-left: 1.2%;
@@ -46,8 +40,7 @@ body
 
 }
 
-#text
-{
+#text {
     margin-left: 6.7%;
     margin-top: -3%;
     width: 500px;
@@ -56,8 +49,7 @@ body
 
 /* ------------------------------------------------------------------------------------ */
 
-#form
-{
+#form {
     margin-top: 7%;
     margin-left: 6%;
     padding-top: 10px;
@@ -69,8 +61,7 @@ body
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.Form
-{
+.Form {
     color: black;
     height: 50px;
     width: 364px;
@@ -82,25 +73,22 @@ body
     border: 1px solid #dddfe2;
 }
 
-input.Form::placeholder
-{
+input.Form::placeholder {
     color: #90949d;
 }
 
-input.Form:focus
-{
+input.Form:focus {
     outline: none;
     border: 1px solid #1977f3;
     box-shadow: 0px 0px 1px #1977f3;
 }
 
-#LogButt
-{
+#LogButt {
     height: 50px;
     width: 364px;
     border-radius: 6px;
     border: none;
-    background-color:#1977f3;
+    background-color: #1977f3;
     color: white;
     text-align: center;
     font-size: 20px;
@@ -110,13 +98,11 @@ input.Form:focus
     transition: 200ms;
 }
 
-#LogButt:hover
-{
-    background-color:#166fe5;
+#LogButt:hover {
+    background-color: #166fe5;
 }
 
-#reminder
-{
+#reminder {
     margin-top: 2%;
     height: 50px;
     width: 330px;
@@ -126,8 +112,7 @@ input.Form:focus
     /* border-bottom: 1px solid #dadde1; */
 }
 
-#buttRemind
-{
+#buttRemind {
     /* margin-top: 10px; */
     border: none;
     background-color: transparent;
@@ -137,13 +122,11 @@ input.Form:focus
     font-size: 14px;
 }
 
-#buttRemind:hover
-{
+#buttRemind:hover {
     text-decoration: underline;
 }
 
-#borderLog
-{
+#borderLog {
     text-align: center;
     width: 360px;
     background-color: #dadde1;
@@ -152,8 +135,7 @@ input.Form:focus
     margin-left: 10%;
 }
 
-#RegisterButt
-{
+#RegisterButt {
     border: none;
     border-radius: 6px;
     color: white;
@@ -167,56 +149,48 @@ input.Form:focus
     margin-top: 7%;
 }
 
-#Star
-{
+#Star {
     margin-top: 12%;
     font-family: sans-serif;
     font-size: 14px;
 }
 
-#StarPage
-{
+#StarPage {
     cursor: pointer;
 }
 
-#StarPage:hover
-{
+#StarPage:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-#language
-{
+#language {
     margin-top: 12.4%;
     width: 100%;
     background-color: #fff;
     height: 217px;
 }
 
-.FooterList
-{
+.FooterList {
     align-items: center;
     display: flex;
     /* flex-wrap: wrap; */
     list-style: none;
 }
 
-.List
-{
+.List {
     padding-left: 10px;
     font-size: 12px;
     color: #8a8d91;
 }
 
-#List2
-{
+#List2 {
     padding-left: 15px;
     font-size: 12px;
     color: #8a8d91;
 }
 
-#more 
-{
+#more {
     height: 20px;
     width: 30px;
     border: 1px solid;
@@ -230,30 +204,25 @@ input.Form:focus
     transition: 200ms;
 }
 
-#more:hover
-{
+#more:hover {
     background-color: #e9e9e9;
 }
 
-.icon-plus
-{
+.icon-plus {
     /* font-style: inherit; */
     color: #4b4f56;
     /* font-size: 20px; */
 }
 
-.List3
-{
+.List3 {
     cursor: pointer;
 }
 
-.List3:hover
-{
+.List3:hover {
     text-decoration: underline;
 }
 
-#lang
-{
+#lang {
     width: 980px;
     /* height: 100px; */
     margin-left: 23.5%;
@@ -261,8 +230,7 @@ input.Form:focus
     padding-top: 28px;
 }
 
-#borderLang
-{
+#borderLang {
     /* text-align: center; */
     width: 980px;
     border-bottom: 8px;
@@ -271,13 +239,11 @@ input.Form:focus
     margin-left: 1.5%;
 }
 
-.FooterLi
-{
+.FooterLi {
     width: 980px;
 }
 
-#FooterList2
-{
+#FooterList2 {
     /* background-color: red; */
     width: 980px;
     align-items: center;
@@ -288,16 +254,14 @@ input.Form:focus
     /* background-color: red; */
 }
 
-.List2
-{
+.List2 {
     padding-left: 20px;
     font-size: 12px;
     /* width: 500px; */
     color: #8a8d91;
 }
 
-#FooterList3
-{
+#FooterList3 {
     /* background-color: red; */
     width: 980px;
     align-items: center;
@@ -308,8 +272,7 @@ input.Form:focus
     margin-left: -0.4%;
 }
 
-#FooterList4
-{
+#FooterList4 {
     /* background-color: red; */
     width: 980px;
     align-items: center;
@@ -320,10 +283,196 @@ input.Form:focus
     margin-left: -0.4%;
 }
 
-#copyright
-{
+#copyright {
     font-size: 11px;
     color: #737373;
     margin-top: 2.8%;
     margin-left: 1.5%;
+}
+
+#contenerForm-m {
+    display: none;
+}
+
+#header{
+    display: none;
+}
+
+/* ************************************************************************* */
+
+@media only screen and (max-width: 1500px) {
+    /* *
+    {
+        border: 1px solid black;
+    } */
+
+    #lang-m
+    {
+        
+    }
+
+    #List2
+    {
+        font-weight: bold;
+    }
+
+    #borderLang
+    {
+        display: none;
+    }
+
+    .FooterLi{
+        display: none;
+    }
+
+    #language
+    {
+        display: none;
+    }
+
+    #contener {
+        display: none;
+    }
+
+    #text {
+        display: none;
+    }
+
+    #language {
+        display: none;
+    }
+
+    #form {
+        display: none;
+    }
+
+    #contenerForm-m {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        /* background-color: red; */
+        width: 100%;
+        /* margin-left: -50%; */
+        justify-content: center;
+        text-align: center;
+    }
+
+    #LoginForm-m {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        /* margin-left: -10%; */
+    }
+
+    #Password {
+        margin-top: -4%;
+    }
+
+    #forgotPass
+    {
+        text-decoration: none;
+        color: #699fff;
+    }
+
+    #header
+    {
+        display: block;
+        color:  #1766d2;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-weight: bold;
+    }
+
+    .Form-m {
+        color: black;
+        height: 50px;
+        width: 364px;
+        border-radius: 6px;
+        margin: 1.5%;
+        font-size: 17px;
+        text-align: center;
+        padding-left: 15px;
+        border: 1px solid #dddfe2;
+    }
+
+    input.Form-m::placeholder {
+        color: #90949d;
+        /* text-align: left; */
+    }
+
+    input.Form-m:focus {
+        outline: none;
+        /* border: 1px solid #1977f3; */
+        /* box-shadow: 0px 0px 1px #1977f3; */
+    }
+
+    #LogButt-m {
+        height: 50px;
+        width: 364px;
+        border-radius: 6px;
+        border: none;
+        background-color: #1977f3;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 1.5%;
+        cursor: pointer;
+        transition: 200ms;
+    }
+
+    #LogButt-m:hover {
+        background-color: #166fe5;
+    }
+
+    #reminder-m {
+        margin-top: 2%;
+        height: 50px;
+        width: 330px;
+        text-align: center;
+        margin-left: 8.7%;
+        padding-top: 2.2%;
+        /* border-bottom: 1px solid #dadde1; */
+    }
+
+    #buttRemind-m {
+        /* margin-top: 10px; */
+        border: none;
+        background-color: transparent;
+        color: #1877f2;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    #buttRemind-m:hover {
+        text-decoration: underline;
+    }
+
+    #borderLog-m {
+        text-align: center;
+        width: 360px;
+        background-color: #dadde1;
+        height: 1px;
+        margin-top: -5%;
+        margin-left: 10%;
+    }
+
+    #RegisterButt-m {
+        border: none;
+        border-radius: 6px;
+        color: white;
+        background-color: #42b72a;
+        cursor: pointer;
+        font-size: 17px;
+        height: 50px;
+        width: 150px;
+        font-weight: bold;
+        width: 190px;
+        margin-top: 7%;
+    }
+
 }
