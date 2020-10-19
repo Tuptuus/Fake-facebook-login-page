@@ -544,16 +544,12 @@ input.Form:focus {
         margin-top: 2%;
     }
 
-    #help-m
+    #copyRight
     {
-        display: flex;
-        font-size: 25px;
-        color: #8a8d91;
-    }
-
-    #helpUl-m
-    {
-        margin-left: 500px;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 30px;
+        color: gray;
     }
 
 }
