@@ -6,7 +6,6 @@
 
 body {
     background-color: #f0f2f5;
-    /* background-color: blue; */
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: sans-serif;
@@ -29,7 +28,6 @@ body {
     margin-left: 22.5%;
     margin-top: 9.5%;
     width: 500px;
-    /* display: flex; */
 }
 
 #image {
@@ -109,11 +107,9 @@ input.Form:focus {
     text-align: center;
     margin-left: 8.7%;
     padding-top: 2.2%;
-    /* border-bottom: 1px solid #dadde1; */
 }
 
 #buttRemind {
-    /* margin-top: 10px; */
     border: none;
     background-color: transparent;
     color: #1877f2;
@@ -174,7 +170,6 @@ input.Form:focus {
 .FooterList {
     align-items: center;
     display: flex;
-    /* flex-wrap: wrap; */
     list-style: none;
 }
 
@@ -195,7 +190,6 @@ input.Form:focus {
     width: 30px;
     border: 1px solid;
     border-radius: 2px;
-    /* padding-left: 15px; */
     background-color: #f5f6f7;
     cursor: pointer;
     border-color: #ccd0d5;
@@ -209,9 +203,7 @@ input.Form:focus {
 }
 
 .icon-plus {
-    /* font-style: inherit; */
     color: #4b4f56;
-    /* font-size: 20px; */
 }
 
 .List3 {
@@ -224,14 +216,11 @@ input.Form:focus {
 
 #lang {
     width: 980px;
-    /* height: 100px; */
     margin-left: 23.5%;
-    /* background-color: red; */
     padding-top: 28px;
 }
 
 #borderLang {
-    /* text-align: center; */
     width: 980px;
     border-bottom: 8px;
     border-bottom: 1px solid #dddfe2;
@@ -244,42 +233,35 @@ input.Form:focus {
 }
 
 #FooterList2 {
-    /* background-color: red; */
     width: 980px;
     align-items: center;
     display: flex;
     list-style: none;
     margin-top: 1%;
     margin-left: -0.4%;
-    /* background-color: red; */
 }
 
 .List2 {
     padding-left: 20px;
     font-size: 12px;
-    /* width: 500px; */
     color: #8a8d91;
 }
 
 #FooterList3 {
-    /* background-color: red; */
     width: 980px;
     align-items: center;
     display: flex;
     list-style: none;
     margin-top: 0.5%;
-    /* background-color: red; */
     margin-left: -0.4%;
 }
 
 #FooterList4 {
-    /* background-color: red; */
     width: 980px;
     align-items: center;
     display: flex;
     list-style: none;
     margin-top: 0.5%;
-    /* background-color: red; */
     margin-left: -0.4%;
 }
 
@@ -471,7 +453,6 @@ input.Form:focus {
         background-color: #dadde1;
         height: 3px;
         margin-top: 5%;
-        /* margin-left: 10%; */
     }
 
 
@@ -514,15 +495,12 @@ input.Form:focus {
     {
         color: #576b95;
         width: 400px;
-        /* background-color: red; */
     }
 
     #right
     {
         display: flex;
         margin-top: 10%;
-        /* flex-direction: row; */
-        /* align-items: center; */
     }
 
     #lang-m
@@ -551,5 +529,4 @@ input.Form:focus {
         font-size: 30px;
         color: gray;
     }
-
 }
