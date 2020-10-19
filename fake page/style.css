@@ -310,7 +310,7 @@ input.Form:focus {
 
 /* ************************************************************************* */
 
-/*@media screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
     #lang-m
     {
@@ -333,6 +333,16 @@ input.Form:focus {
     }
 
     .FooterLi{
+        display: none;
+    }
+
+    #reminder
+    {
+        display: none;
+    }
+
+    #buttRemind
+    {
         display: none;
     }
 
@@ -381,6 +391,7 @@ input.Form:focus {
     {
         text-decoration: none;
         color: #699fff;
+        font-size: 40px;
     }
 
     #header
@@ -388,7 +399,7 @@ input.Form:focus {
         display: block;
         color:  #1766d2;
         text-align: center;
-        font-size: 30px;
+        font-size: 100px;
         margin-top: 4%;
         margin-bottom: 4%;
         font-weight: bold;
@@ -396,11 +407,11 @@ input.Form:focus {
 
     .Form-m {
         color: black;
-        height: 50px;
-        width: 364px;
-        border-radius: 6px;
-        margin: 1.5%;
-        font-size: 17px;
+        height: 110px;
+        width: 900px;
+        border-radius: 10px;
+        margin: 4%;
+        font-size: 47px;
         text-align: center;
         padding-left: 15px;
         border: 1px solid #dddfe2;
@@ -416,16 +427,16 @@ input.Form:focus {
     }
 
     #LogButt-m {
-        height: 50px;
-        width: 364px;
-        border-radius: 6px;
+        height: 110px;
+        width: 900px;
+        border-radius: 10px;
         border: none;
         background-color: #1977f3;
         color: white;
         text-align: center;
-        font-size: 20px;
+        font-size: 47px;
         font-weight: bold;
-        margin-top: 1.5%;
+        margin-top: -1.5%;
         cursor: pointer;
         transition: 200ms;
     }
@@ -437,10 +448,10 @@ input.Form:focus {
     #reminder-m {
         margin-top: 2%;
         height: 50px;
-        width: 330px;
+        width: 900px;
         text-align: center;
         margin-left: 8.7%;
-        padding-top: 2.2%;
+        padding-top: 5.2%;
     }
 
     #buttRemind-m {
@@ -449,7 +460,8 @@ input.Form:focus {
         color: #1877f2;
         cursor: pointer;
         font-family: sans-serif;
-        font-size: 14px;
+        font-size: 40px;
+        background-color: red;
     }
 
     #buttRemind-m:hover {
@@ -458,24 +470,23 @@ input.Form:focus {
 
     #borderLog-m {
         text-align: center;
-        width: 360px;
+        width: 900px;
         background-color: #dadde1;
-        height: 1px;
-        margin-top: -5%;
-        margin-left: 10%;
+        height: 3px;
+        margin-top: 5%;
+        /* margin-left: 10%; */
     }
 
     #RegisterButt-m {
         border: none;
-        border-radius: 6px;
+        border-radius: 10px;
         color: white;
         background-color: #42b72a;
         cursor: pointer;
-        font-size: 17px;
-        height: 50px;
-        width: 150px;
+        font-size: 40px;
+        height: 120px;
+        width: 500px;
         font-weight: bold;
-        width: 190px;
         margin-top: 7%;
     }
 
