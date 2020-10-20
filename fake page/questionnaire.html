@@ -8,151 +8,393 @@
 </head>
 
 <body>
-    <div id="questionnaire">
-        <form action="" id="questions">
-            <h4>Pierwsze: </h4>
-            <div class="form">
-                <input type="radio" name="1">
-                <label for="">Płatki czy Mleko</label>
-                <input type="radio" name="1">
-            </div>
-            <div class="form">
-                <input type="radio" name="2">
-                <label>Coca Cola czy Pepsi</label>
-                <input type="radio" name="2">
-            </div>
-            <h4>Nauka: </h4>
-            <div class="form">
-                <input type="radio" name="3">
-                <label>W szkole czy Zdalnie</label>
-                <input type="radio" name="3">
-            </div>
-            <div class="form">
-                <input type="radio" name="4">
-                <label>Słone czy Słodkie</label>
-                <input type="radio" name="4">
-            </div>
-            <h4>Czekolada: </h4>
-            <div class="form">
-                <input type="radio" name="5">
-                <label>Biała czy Czarna</label>
-                <input type="radio" name="5">
-            </div>
-            <h4>Pomidor to: </h4>
-            <div class="form">
-                <input type="radio" name="6">
-                <label>Owoc czy Warzywo</label>
-                <input type="radio" name="6">
-            </div>
-            <div class="form">
-                <input type="radio" name="7">
-                <label>Noc czy Dzień</label>
-                <input type="radio" name="7">
-            </div>
-            <div class="form">
-                <input type="radio" name="8">
-                <label>Książka czy Film</label>
-                <input type="radio" name="8">
-            </div>
-            <div class="form">
-                <input type="radio" name="9">
-                <label>Film czy Serial</label>
-                <input type="radio" name="9">
-            </div>
-            <div class="form">
-                <input type="radio" name="10">
-                <label>Horror czy Komedia</label>
-                <input type="radio" name="10">
-            </div>
-            <div class="form">
-                <input type="radio" name="11">
-                <label>Herbata czy Kawa</label>
-                <input type="radio" name="11">
-            </div>
-            <div class="form">
-                <input type="radio" name="12">
-                <label>Biały czy Czarny</label>
-                <input type="radio" name="12">
-            </div>
-            <div class="form">
-                <input type="radio" name="13">
-                <label>Pies czy Kot</label>
-                <input type="radio" name="13">
-            </div>
-            <div class="form">
-                <input type="radio" name="14">
-                <label>Przyjaźń czy Miłość</label>
-                <input type="radio" name="14">
-            </div>
-            <div class="form">
-                <input type="radio" name="15">
-                <label>Pizza czy Kebab</label>
-                <input type="radio" name="15">
-            </div>
-            <div class="form">
-                <input type="radio" name="16">
-                <label>KFC czy McDonald</label>
-                <input type="radio" name="16">
-            </div>
-            <h4>Film w: </h4>
-            <div class="form">
-                <input type="radio" name="17">
-                <label>Kinie czy W Domu</label>
-                <input type="radio" name="17">
-            </div>
-            <div class="form">
-                <input type="radio" name="18">
-                <label>Audi czy BMW</label>
-                <input type="radio" name="18">
-            </div>
-            <div class="form">
-                <input type="radio" name="19">
-                <label>Słodycze czy Owoce</label>
-                <input type="radio" name="19">
-            </div>
-            <div class="form">
-                <input type="radio" name="20">
-                <label>Sukienka czy Spódnica</label>
-                <input type="radio" name="20">
-            </div>
-            <div class="form">
-                <input type="radio" name="21">
-                <label>Sukienka czy Spodnie</label>
-                <input type="radio" name="21">
-            </div>
-            <div class="form">
-                <input type="radio" name="22">
-                <label>Lato czy Zima</label>
-                <input type="radio" name="22">
-            </div>
-            <div class="form">
-                <input type="radio" name="23">
-                <label>Koszula czy T-shirt</label>
-                <input type="radio" name="23">
-            </div>
-            <div class="form">
-                <input type="radio" name="24">
-                <label>Wiadomości czy Rozmowa</label>
-                <input type="radio" name="24">
-            </div>
-            <div class="form">
-                <input type="radio" name="25">
-                <label>Ciepło czy Zimno</label>
-                <input type="radio" name="25">
-            </div>
-            <h4>Włosy: </h4>
-            <div class="form">
-                <input type="radio" name="26">
-                <label>Kręcone czy Proste</label>
-                <input type="radio" name="26">
-            </div>
-            <div class="form">
-                <input type="radio" name="27">
-                <label>Rolki czy Rower</label>
-                <input type="radio" name="27">
-            </div>
-        </form>
-    </div>
+    <form method="POST" id="form2" action="answers.php">
+        <h3>Pierwsze: </h3>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test1" name="1" value="Płatki">
+                <label for="test1">Płatki</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test2" name="1" value="Mleko" checked>
+                <label for="test2">Mleko</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test3" name="2" value="Pepsi">
+                <label for="test3">Pepsi</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test4" name="2" value="Coca-Cola">
+                <label for="test4">Coca-Cola</label>
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="h">Nauka W: </h3>
+            <p class="input">
+                <input type="radio" id="test5" name="3" value="W Szkole">
+                <label for="test5">W Szkole</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test6" name="3" value="Zdalnie">
+                <label for="test6">Zdalnie</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test7" name="4" value="Słone">
+                <label for="test7">Słone</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test8" name="4" value="Słodkie">
+                <label for="test8">Słodkie</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test9" name="5" value="Noc">
+                <label for="test9">Noc</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test10" name="5" value="Dzień">
+                <label for="test10">Dzień</label>
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="h">Czekolada: </h3>
+            <p class="input">
+                <input type="radio" id="test11" name="6" value="Biała">
+                <label for="test11">Biała</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test12" name="6" value="Czarna">
+                <label for="test12">Czarna</label>
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="h">Pomidor to: </h3>
+            <p class="input">
+                <input type="radio" id="test13" name="7" value="Owoc">
+                <label for="test13">Owoc</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test14" name="7" value="Warzywo">
+                <label for="test14">Warzywo</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test15" name="8" value="Książka">
+                <label for="test15">Książka</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test16" name="8" value="Film">
+                <label for="test16">Film</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test17" name="9" value="Serial">
+                <label for="test17">Serial</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test18" name="9" value="Film">
+                <label for="test18">Film</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test19" name="10" value="Horror">
+                <label for="test19">Horror</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test20" name="10" value="Komedia">
+                <label for="test20">Komedia</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test21" name="11" value="Kawa">
+                <label for="test21">Kawa</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test22" name="11" value="Herbata">
+                <label for="test22">Herbata</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test23" name="12" value="Czarny">
+                <label for="test23">Czarny</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test24" name="12" value="Biały">
+                <label for="test24">Biały</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test25" name="13" value="Pies">
+                <label for="test25">Pies</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test26" name="13" value="Kot">
+                <label for="test26">Kot</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test27" name="14" value="Słodycze">
+                <label for="test27">Słodycze</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test28" name="14" value="Owoce">
+                <label for="test28">Owoce</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test29" name="15" value="Sukienka">
+                <label for="test29">Sukienka</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test30" name="15" value="Spodnie">
+                <label for="test30">Spodnie</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test31" name="16"  value="Szpilki">
+                <label for="test31">Szpilki</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test32" name="16" value="Trampki">
+                <label for="test32">Trampki</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test33" name="17" value="Lato">
+                <label for="test33">Lato</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test34" name="17" value="Zima">
+                <label for="test34">Zima</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test35" name="18" value="Koszula">
+                <label for="test35">Koszula</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test36" name="18" value="T-shirt">
+                <label for="test36">T-shirt</label>
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="h">Włosy: </h3>
+            <p class="input">
+                <input type="radio" id="test37" name="19" value="Krótkie">
+                <label for="test37">Krótkie</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test38" name="19" value="Długie">
+                <label for="test38">Długie</label>
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="h">Włosy: </h3>
+            <p class="input">
+                <input type="radio" id="test39" name="20" value="Kręcone">
+                <label for="test39">Kręcone</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test40" name="20" value="Proste">
+                <label for="test40">Proste</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test41" name="21" value="BMW">
+                <label for="test41">BMW</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test42" name="21" value="Audi">
+                <label for="test42">Audi</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test43" name="22" value="Zimno">
+                <label for="test43">Zimno</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test44" name="22" value="Ciepło">
+                <label for="test44">Ciepło</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test45" name="23" value="Truskawki">
+                <label for="test45">Truskawki</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test46" name="23" value="Maliny">
+                <label for="test46">Maliny</label>
+            </p>
+        </div>
+        <div class="form">
+            <h3 class="h">Żelki: </h3>
+            <p class="input">
+                <input type="radio" id="test47" name="24"value="Słodkie">
+                <label for="test47">Słodkie</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test48" name="24" value="Kwaśne">
+                <label for="test48">Kwaśne</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test49" name="25" value="Jabłko">
+                <label for="test49">Jabłko</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test50" name="25" value="Gruszka">
+                <label for="test50">Gruszka</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test51" name="26" value="KFC">
+                <label for="test51">KFC</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test52" name="26" value="McDonald">
+                <label for="test52">McDonald</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test53" name="27" value="Rolki">
+                <label for="test53">Rolki</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test54" name="27" value="Rower">
+                <label for="test54">Rower</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test55" name="28" value="Nike">
+                <label for="test55">Nike</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test56" name="28" value="Adidas">
+                <label for="test56">Adidas</label>
+            </p>
+        </div>
+        <div class="form">
+            <p class="input">
+                <input type="radio" id="test57" name="29" value="Mieszkanie">
+                <label for="test57">Mieszkanie</label>
+            </p>
+            <p class="input">
+                Czy
+            </p>
+            <p class="input">
+                <input type="radio" id="test58" name="29" value="Dom">
+                <label for="test58">Dom</label>
+            </p>
+        </div>
+        <button id="but" type="submit">WYŚLIJ</button>
+    </form>
 </body>
 
 </html>

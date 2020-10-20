@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url(tło.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1
+{
+    padding-top: 7%;
+}
+
+#desc
+{
+    width: 35%;
+    font-size: 17px;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#end
+{
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: bold;
+}
