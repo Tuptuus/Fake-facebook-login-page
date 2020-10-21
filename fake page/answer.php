@@ -37,9 +37,10 @@
     $sport = $_POST['27'];
     $marka = $_POST['28'];
     $mieszkanie = $_POST['29'];
+    $przyjazn = $_POST['30'];
 
 
-    $query = "insert into answers(imie, nazwisko, platki, cola, nauka, smak2, poraDnia, czekolada, pomidor, ksiazka, serial, film, picie, kolor, pupil, slodCzyOwoce, ubranie, buty, poraRoku, koszulka, wlosy, wlosy2, samochod, temp, owoc, smak, owoc2, jedzenie, sport, marka, mieszkanie) values('$imie', '$nazwisko', '$platki', '$cola', '$nauka', '$smak2', '$poraDnia', '$czekolada', '$pomidor', '$ksiazka', '$serial', '$film', '$picie', '$kolor', '$pupil', '$slodCzyOwoce', '$ubranie', '$buty', '$poraRoku', '$koszulka', '$wlosy', '$wlosy2', '$samochod', '$temp', '$owoc', '$smak', '$owoc2', '$jedzenie', '$sport', '$marka', '$mieszkanie')" or die("query error");
+    $query = "insert into answers(imie, nazwisko, platki, cola, nauka, smak2, poraDnia, czekolada, pomidor, ksiazka, serial, film, picie, kolor, pupil, slodCzyOwoce, ubranie, buty, poraRoku, koszulka, wlosy, wlosy2, samochod, temp, owoc, smak, owoc2, jedzenie, sport, marka, mieszkanie, przyjazn) values('$imie', '$nazwisko', '$platki', '$cola', '$nauka', '$smak2', '$poraDnia', '$czekolada', '$pomidor', '$ksiazka', '$serial', '$film', '$picie', '$kolor', '$pupil', '$slodCzyOwoce', '$ubranie', '$buty', '$poraRoku', '$koszulka', '$wlosy', '$wlosy2', '$samochod', '$temp', '$owoc', '$smak', '$owoc2', '$jedzenie', '$sport', '$marka', '$mieszkanie', '$przyjazn')" or die("query error");
     mysqli_query($db, $query);
     header('location: end.html');
 ?>
