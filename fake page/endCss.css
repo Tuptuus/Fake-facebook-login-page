@@ -16,8 +16,9 @@ body
     font-family: sans-serif;
 }
 
-h1
+#title
 {
+    font-size: 60px;
     padding-top: 7%;
 }
 
@@ -36,7 +37,22 @@ h1
 
 #end
 {
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 40px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1000px)
+{
+    #desc
+    {
+        padding-top: 5%;
+        font-size: 25px;
+        width: 60%;
+    }
+
+    #title
+    {
+        font-size: 70px;
+    }
 }

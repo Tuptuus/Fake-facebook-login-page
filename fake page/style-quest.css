@@ -144,3 +144,29 @@ body
     font-family: sans-serif;
     text-align: center;
 }
+
+@media screen and (max-width: 1000px)
+{
+    .form
+    {
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .form>h3
+    {
+        font-size: 35px;
+    }
+
+    .inputName
+    {
+        height: 50px;
+        width: 300px;
+        font-size: 35px;
+    }
+
+    body
+    {
+        height: 7500px;
+    }
+} 
