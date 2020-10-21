@@ -55,4 +55,9 @@ body
     {
         font-size: 70px;
     }
+    
+    #end
+    {
+        width: 200px;
+    }
 }

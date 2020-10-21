@@ -169,4 +169,11 @@ body
     {
         height: 7500px;
     }
+
+    #but
+    {
+        height: 80px;
+        width: 130px;
+        font-size: 28px;
+    }
 } 
