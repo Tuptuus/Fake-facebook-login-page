@@ -1,9 +1,9 @@
 <?php
 
     $host = "localhost";
-    $dbuser = "root";
-    $dbpass = "";
-    $dbname = "register";
+    $dbuser = "id15164633_admin";
+    $dbpass = "qwertY!23456";
+    $dbname = "id15164633_register";
 
     $db = mysqli_connect($host, $dbuser, $dbpass, $dbname) or die("connect error");
     
